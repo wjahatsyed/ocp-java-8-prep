@@ -1,4 +1,4 @@
-public class Main {
+public class OCP {
 
     public static void main(String[] args) {
         System.out.println("This is a repository for all topics covered in the " +
