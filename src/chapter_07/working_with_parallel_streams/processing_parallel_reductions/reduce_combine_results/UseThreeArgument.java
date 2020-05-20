@@ -1,4 +1,4 @@
-package com.wajahat.ocp.chapter_7.working_with_parallel_streams.processing_parallel_reductions.reduce_combine_results;
+package chapter_07.working_with_parallel_streams.processing_parallel_reductions.reduce_combine_results;
 
 import java.util.Arrays;
 
