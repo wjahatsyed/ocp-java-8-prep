@@ -5,7 +5,7 @@ package chapter_01.enums;
  */
 public enum Temperature {
     WINTER("LOW"), SUMMER("High"), Autumn("Medium"), Spring("Average");
-    String temperature;
+    final String temperature;
 
     //enum constructor is private by default.
     private Temperature(String temperature) {

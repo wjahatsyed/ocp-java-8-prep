@@ -18,7 +18,6 @@ public class ChildClass extends ParentClass {
         Protected members can only be available through inheritance
          */
         ChildClass childClass = new ChildClass();
-
         /*
         The protected member of parent class only be accessible through this
         manner. Object reference of child class and object of child class

@@ -4,9 +4,30 @@ package chapter_01.enums;
  * Created by Syed Wajahat on 4/30/2020.
  */
 public enum Season_2 {
-    WINTER("Low"), SUMMER("High"), AUTUMN("Medium"), SPRING("Medium");
+    WINTER("Low"){
+        @Override
+        public void myMethod() {
 
-    String expectedVisitors;
+        }
+    }, SUMMER("High") {
+        @Override
+        public void myMethod() {
+
+        }
+    }, AUTUMN("Medium") {
+        @Override
+        public void myMethod() {
+
+        }
+    },
+    SPRING("Medium") {
+        @Override
+        public void myMethod() {
+
+        }
+    };
+
+    final String expectedVisitors;
 
     private Season_2(String expectedVisitors) {
         this.expectedVisitors = expectedVisitors;
@@ -15,4 +36,6 @@ public enum Season_2 {
     public void printExpectedVisitor() {
         System.out.println(expectedVisitors);
     }
+
+    public abstract void myMethod();
 }
