@@ -11,4 +11,12 @@ public class OverloadingExample {
     public int myMethod1(int a, int b) {
         return a + b;
     }
+
+    public void myMethod(String string, int i){
+
+    }
+
+    public int myMethod(int i, String s){
+        return 0;
+    }
 }

@@ -6,10 +6,10 @@ package chapter_01;
 public class Ex_Abstract_Class {
     /*
     An abstract class may have 0 or more methods.
-    An abstract may have 0 or more abstract methods.
+    An abstract class may have 0 or more abstract methods.
     An abstract method doest not have a body.
 
-    The first non abstract class implementing the abstract class
+    The first non-abstract class implementing the abstract class
     must have all the implementations of abstract methods in the
     parent class.
 

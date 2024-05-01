@@ -8,3 +8,10 @@ public class ParentClass {
         return -5;
     }
 }
+
+class ChildClassMakko extends ParentClass{
+    @Override
+    public int myMethod() throws RuntimeException {
+        return 500;
+    }
+}
