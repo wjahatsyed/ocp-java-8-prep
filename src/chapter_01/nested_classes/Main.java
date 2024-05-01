@@ -18,7 +18,7 @@ public class Main {
 
     /*
     Local Inner Class
-    1. A local inner cannot have an access modifier in class declaration
+    1. A local inner class cannot have an access modifier in class declaration
     2. A local inner class cannot be static or have static members
     3. A local inner class can access members of the method if the member is final or effectively final
     4. A local inner class can access members of the enclosing class

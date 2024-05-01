@@ -7,8 +7,10 @@ import chapter_01.access_modifiers.package_A.ParentClass;
  */
 public class ChildClass extends ParentClass {
     @Override
-    public int myMethod() throws RuntimeException{
-        //This method must throw Exception or a sub class of exception such as RunTimeException in this case
+    public int myMethod(){
+        System.out.println("As this is overriding method in superclass" +
+                "it must not throw any broader exception but the same or subclass" +
+                "of the checked exception or throw any RunTime Exception");
         return -10;
 
     }

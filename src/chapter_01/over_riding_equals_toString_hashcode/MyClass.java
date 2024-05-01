@@ -20,7 +20,7 @@ public class MyClass {
     }
 
     //equals work as == from the Object class implementation if not overridden
-    //== means two references refer to the same object in memory
+    //== means two references, refer to the same object in memory
 
     @Override
     public boolean equals(Object o) {

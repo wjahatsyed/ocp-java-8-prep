@@ -1,4 +1,4 @@
-package com.wajahat.ocp.chapter_1.chapter1.nested_classes.local_inner_class;
+package chapter_01.nested_classes.local_inner_class;
 
 /**
  * Created by Syed Wajahat on 12/8/2019.
