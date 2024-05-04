@@ -5,3 +5,7 @@ package chapter_02.design_interface;
  */
 public class Frog implements Swim, Hop {
 }
+
+class Frog2 implements Swim, Hop{
+
+}

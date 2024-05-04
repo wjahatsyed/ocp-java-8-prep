@@ -7,14 +7,12 @@ public class VisitorTicketTracker_TS {
     private static VisitorTicketTracker_TS instance;
 
     private VisitorTicketTracker_TS() {
-
     }
 
     public synchronized static VisitorTicketTracker_TS getInstance() {
         if (instance == null) {
             instance = new VisitorTicketTracker_TS();
         }
-
         return instance;
     }
 }

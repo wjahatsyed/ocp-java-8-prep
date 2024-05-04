@@ -7,7 +7,6 @@ public class StaffRegister {
     private static final StaffRegister instance;
 
     private StaffRegister() {
-
     }
 
     static {

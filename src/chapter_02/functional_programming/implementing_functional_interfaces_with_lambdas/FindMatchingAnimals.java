@@ -5,13 +5,17 @@ package chapter_02.functional_programming.implementing_functional_interfaces_wit
  */
 public class FindMatchingAnimals {
     private static void print(Animal animal, CheckTrait trait) {
-        if (trait.test(animal)) {
+        if (trait.checkTest(animal)) {
             System.out.println(animal);
         }
     }
 
     public static void main(String[] args) {
-        print(new Animal("Fish", false, true), a -> a.canHop());
+        //method reference
+        print(new Animal("Fish", false, true), Animal::canHop);
+        //Lambda Expression
         print(new Animal("Kangaroo", true, false), a -> a.canHop());
+
+        //print();
     }
 }

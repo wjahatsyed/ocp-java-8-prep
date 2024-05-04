@@ -9,13 +9,13 @@ public class MyClass {
     default methods and static methods can have body
     default methods are overridden but static methods are over hidden
 
-    If a method throws an exception in the interface, the method in sub class if overridden
+    If a method throws an exception in the interface, the method in subclass if overridden
     must throw same or less exception or no exception at all
 
-    An interface cannot extend a class
+    An interface cannot extend any class
     A class cannot extend an interface
 
     A class can implement multiple interfaces
-
+    An interface can extend another interface.
      */
 }

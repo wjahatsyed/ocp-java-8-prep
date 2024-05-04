@@ -18,6 +18,5 @@ public class MyClass {
     In encapsulation, we provide private access modifier to all instance variables
     of the class and create public getter and setters and constructors
     Encapsulation helps use implement the invariants' protection
-
      */
 }

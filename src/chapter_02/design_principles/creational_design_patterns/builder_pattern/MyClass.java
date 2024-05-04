@@ -16,8 +16,8 @@ public class MyClass {
         AnimalBuilder fishBuilder = new AnimalBuilder();
         List<String> foodList = new ArrayList<>();
         foodList.add("some food");
+        //Example of Method chaining
         Animal fish = fishBuilder.setAge(25).setFavFoods(foodList).setSpecies("Dolphin").build();
-
         Animal fish2 = new AnimalBuilder().setAge(25).setFavFoods(foodList).setSpecies("Dolphin").build();
 
         if (fish == fish2) {

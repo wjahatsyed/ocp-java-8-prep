@@ -6,7 +6,7 @@ package chapter_02.design_principles.creational_design_patterns.factory_pattern;
 public class MyClass {
     /*
     What if we do not know the precise type of the object to be created at run time
-    We to have loosely couple the classes
+    We to have loose couple the classes
     Factory pattern supports polymorphism
     An object in memory can be accessed through a reference of the same type
     or a reference of the parent class or a reference of an interface

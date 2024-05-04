@@ -6,7 +6,7 @@ package chapter_02.design_interface;
 public interface MyInterface {
     //default method
     public default void myDefaultMethod() {
-        System.out.println("Makko from interface");
+        System.out.println("Hello from interface's default method.");
     }
 
     void myAbstractMethod() throws Exception;

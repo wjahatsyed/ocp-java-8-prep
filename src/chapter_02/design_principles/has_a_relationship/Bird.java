@@ -10,7 +10,7 @@ public class Bird {
     private Beak beak;
 }
 
-class Beak {
+class  Beak {
     private String color;
 
     public String getColor() {

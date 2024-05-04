@@ -6,7 +6,7 @@ package chapter_01;
 public class Main {
     public static void main(String[] args) {
         System.out.println(" Chapter 1 is related to access modifiers, enums, nested classes, " +
-                "overriding equals,\ntoString and hashcode, overloading and overriding - polymorphism, " +
-                "virtual method invocation and using the instanceOf operator");
+                "overriding equals,\n toString and hashcode, overloading and overriding - polymorphism, " +
+                "\n virtual method invocation and using the instanceOf operator");
     }
 }

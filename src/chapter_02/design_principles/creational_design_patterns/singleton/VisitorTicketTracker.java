@@ -14,7 +14,6 @@ public class VisitorTicketTracker {
             instance = new VisitorTicketTracker();
             //The above is not threads-safe
         }
-
         return instance;
     }
 }

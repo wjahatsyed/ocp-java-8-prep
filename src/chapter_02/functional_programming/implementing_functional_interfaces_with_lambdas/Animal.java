@@ -4,9 +4,9 @@ package chapter_02.functional_programming.implementing_functional_interfaces_wit
  * Created by Syed Wajahat on 12/10/2019.
  */
 public class Animal {
-    private String species;
-    private boolean canHop;
-    private boolean canSwim;
+    private final String species;
+    private final boolean canHop;
+    private final boolean canSwim;
 
     public Animal(String speciesName, boolean hopper, boolean swimmer) {
         super();

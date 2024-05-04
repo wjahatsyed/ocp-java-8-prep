@@ -25,7 +25,7 @@ public class Animal extends java.lang.Object {
     }
 
     public void setSpecies(String species) {
-        if (species == null || species.trim().length() == 0) {
+        if ((species == null) || species.trim().isEmpty()) {
             throw new IllegalArgumentException("String cannot be empty");
         }
         this.species = species;

@@ -5,8 +5,8 @@ package chapter_02.design_principles.has_a_relationship;
  * Created by Syed Wajahat on 12/11/2019.
  */
 public class Penguin {
-    private Flippers flippers;
-    private WebbedFeet webbedFeet;
+    private final Flippers flippers;
+    private final WebbedFeet webbedFeet;
 
     public Penguin(Flippers flippers, WebbedFeet webbedFeet) {
         this.flippers = flippers;

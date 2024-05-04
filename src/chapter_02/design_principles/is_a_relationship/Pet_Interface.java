@@ -10,7 +10,6 @@ public interface Pet_Interface {
 }
 
 abstract class Animal {
-
 }
 
 class Feline extends Animal {
@@ -19,19 +18,16 @@ class Feline extends Animal {
 class Dog extends Animal implements Pet_Interface {
     @Override
     public void cuddle() {
-
     }
 }
 
 class Cat_ extends Feline implements Pet_Interface {
     @Override
     public void cuddle() {
-
     }
 }
 
 class Tiger extends Feline {
-
 }
 
 

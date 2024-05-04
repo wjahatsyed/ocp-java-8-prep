@@ -11,7 +11,6 @@ public class VisitorTicketTracker_TS_ {
     private volatile static VisitorTicketTracker_TS_ instance;
 
     private VisitorTicketTracker_TS_() {
-
     }
 
     public static VisitorTicketTracker_TS_ getInstance() {
