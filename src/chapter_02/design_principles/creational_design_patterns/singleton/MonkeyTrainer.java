@@ -10,7 +10,6 @@ public class MonkeyTrainer {
         if (hayStorage.getQuantity() < hayRequired) {
             hayStorage.addHay(hayRequired + 10);
         }
-        boolean isFed = hayStorage.removeHay(hayRequired);
-        return isFed;
+        return hayStorage.removeHay(hayRequired);
     }
 }

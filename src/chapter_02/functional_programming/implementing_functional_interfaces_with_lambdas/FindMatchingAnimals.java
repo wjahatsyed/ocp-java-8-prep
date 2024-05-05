@@ -15,6 +15,7 @@ public class FindMatchingAnimals {
         print(new Animal("Fish", false, true), Animal::canHop);
         //Lambda Expression
         print(new Animal("Kangaroo", true, false), a -> a.canHop());
+        print(new Animal("Lobster", false, true), Animal::canSwim);
 
         //print();
     }

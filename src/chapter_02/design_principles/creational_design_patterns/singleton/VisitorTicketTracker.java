@@ -2,6 +2,7 @@ package chapter_02.design_principles.creational_design_patterns.singleton;
 
 /**
  * Created by Syed Wajahat on 12/12/2019.
+ * Singleton lazy initialization
  */
 public class VisitorTicketTracker {
     private VisitorTicketTracker() {

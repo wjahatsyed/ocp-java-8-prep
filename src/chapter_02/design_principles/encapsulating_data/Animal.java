@@ -1,6 +1,7 @@
 package chapter_02.design_principles.encapsulating_data;
 /**
  * Created by Syed Wajahat on 12/11/2019.
+ * Encapsulation is needed for invariant protection
  */
 public class Animal extends java.lang.Object {
     /*
