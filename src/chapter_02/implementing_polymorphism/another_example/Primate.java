@@ -7,4 +7,8 @@ public class Primate {
     public boolean hasHair() {
         return true;
     }
+
+    public final void enjoy() {
+
+    }
 }
