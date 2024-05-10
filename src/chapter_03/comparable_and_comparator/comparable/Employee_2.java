@@ -20,6 +20,7 @@ public class Employee_2 implements Comparable {
     public int compareTo(Object o) {
         Employee_2 employee_2 = (Employee_2) o;
         return this.firstName.compareTo(employee_2.firstName);
+        //
     }
 
     @Override

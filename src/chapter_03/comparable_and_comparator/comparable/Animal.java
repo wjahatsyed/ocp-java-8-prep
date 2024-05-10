@@ -13,6 +13,7 @@ public class Animal implements Comparable<Animal> {
     @Override
     public int compareTo(Animal animal) {
         return this.id - animal.id;
+        //
     }
 
     public static void main(String[] args) {

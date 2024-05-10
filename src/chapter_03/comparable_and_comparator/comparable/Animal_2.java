@@ -11,6 +11,7 @@ public class Animal_2 implements Comparable<Animal_2> {
     public int compareTo(Animal_2 o) {
         System.out.println("Called");
         return this.age - o.age;
+        //
     }
 
     public static void main(String[] args) {
