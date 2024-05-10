@@ -12,10 +12,24 @@ public class LowerBound_Example {
         Object o = "Sami";
         objects.add(o);
         objects.add("Wajahat");
-
+        objects.add("Object and anything that has Object as a super class");
+        objects.add(new Manchester("Java Developer at IBM."));
         objects.forEach(System.out::println);
+
     }
 
+}
+
+class Manchester{
+    private final String name;
+    public Manchester(String name){
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
 
 

@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * Created by Syed Wajahat on 12/15/2019.
- *
  */
 public class Bird {
 }
@@ -16,5 +15,7 @@ class Sparrow extends Bird {
         //both below lines do not compile
         //list.add(new Bird());
         //list.add(new Sparrow());
+        List<? extends Bird> list1 = new ArrayList<>();
+
     }
 }
