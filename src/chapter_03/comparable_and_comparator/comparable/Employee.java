@@ -22,6 +22,7 @@ public class Employee implements Comparable {
     @Override
     public int compareTo(Object o) {
         Employee employee = (Employee) o;
+        System.out.println("Called");
         return this.name.compareTo(employee.name);
     }
 
