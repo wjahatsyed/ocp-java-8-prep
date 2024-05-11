@@ -1,4 +1,4 @@
-package chapter_03.comparable_and_comparator.comparator;
+package chapter_03.comparable_and_comparator.comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;

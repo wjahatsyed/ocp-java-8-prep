@@ -11,7 +11,7 @@ public class Legacy_autoboxing {
         List list = new ArrayList<>();
         list.add(5);
         //compile time error
-
         //int i = list.get(0);
+        int i = (int)list.get(0);
     }
 }

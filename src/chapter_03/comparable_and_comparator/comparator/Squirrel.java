@@ -37,6 +37,4 @@ public class Squirrel implements Comparator<Squirrel> {
         //If name is same then sort on weight
         return s1.getWeight() - s2.getWeight();
     }
-
-
 }
