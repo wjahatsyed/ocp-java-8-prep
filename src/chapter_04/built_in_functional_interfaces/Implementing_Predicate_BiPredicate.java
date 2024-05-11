@@ -11,12 +11,10 @@ public class Implementing_Predicate_BiPredicate {
         Predicate<String> predicate = s -> s.startsWith("Wa");
         predicate.test("Wajahat");
 
-
         BiPredicate<String, String> biPredicate = (a, b) -> a.startsWith(b);
         biPredicate = String::startsWith;
 
         biPredicate.test("Zeeshan", "Z");
-
-
+        biPredicate.test("Wajahat", "A");
     }
 }

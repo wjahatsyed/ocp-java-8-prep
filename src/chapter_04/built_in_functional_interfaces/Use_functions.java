@@ -22,10 +22,9 @@ public class Use_functions {
 
         //Consumer takes 1 parameter and returns void
         Consumer<List<Integer>> listConsumer = Collections::sort;
-        listConsumer.accept(Arrays.asList(6,4,2,9));
+        listConsumer.accept(Arrays.asList(6, 4, 2, 9));
 
-
-
-
+        Consumer<List<Integer>> listConsumer1 = Collections::sort;
+        listConsumer.accept(Arrays.asList(10, 6, 2, 2, 12, 24));
     }
 }

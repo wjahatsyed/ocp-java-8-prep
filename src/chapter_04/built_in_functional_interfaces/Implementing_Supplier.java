@@ -1,6 +1,7 @@
 package chapter_04.built_in_functional_interfaces;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.function.Supplier;
 
@@ -12,8 +13,11 @@ public class Implementing_Supplier {
         Supplier<LocalDate> s1 = () -> LocalDate.now();
         Supplier<LocalDate> s2 = LocalDate::now;
 
+        Supplier<LocalDateTime> localDateTimeSupplier = LocalDateTime::now;
+
         LocalDate localDate1 = s1.get();
         LocalDate localDate2 = s2.get();
+        LocalDateTime localDateTime = localDateTimeSupplier.get();
 
         System.out.println(localDate1);
         System.out.println(localDate2);

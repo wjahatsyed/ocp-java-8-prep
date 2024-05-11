@@ -13,6 +13,9 @@ public class Implementing_Consumer_BiConsumer {
         Consumer<String> consumer = System.out::println;
         consumer.accept("Wajahat");
 
+        Consumer<String> consumer12 = System.out::println;
+        consumer12.accept("Faiza");
+
         Consumer<String> consumer1 = s -> System.out.println(s);
         consumer1.accept("Syed Muhammad Wajahat");
 
@@ -27,5 +30,14 @@ public class Implementing_Consumer_BiConsumer {
 
         System.out.println(stringIntegerMap);
 
+        Map<String, Integer> stringIntegerMap1 = new HashMap<>();
+        BiConsumer<String, Integer> stringIntegerBiConsumer = stringIntegerMap1::put;
+        stringIntegerBiConsumer.accept("Wajahat", 36);
+        stringIntegerBiConsumer.accept("Faiza", 17);
+        System.out.println(stringIntegerMap1);
     }
+}
+
+class Implementing_Consumer_Bi_Consumer{
+
 }

@@ -11,6 +11,5 @@ public class Scores_Averages_2 {
         System.out.println(opt.orElse(Double.NaN));
         System.out.println(opt.orElseGet(() -> Math.random()));
         System.out.println(opt.orElseThrow(()-> new IllegalStateException()));
-
     }
 }

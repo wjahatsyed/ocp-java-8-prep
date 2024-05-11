@@ -21,6 +21,9 @@ public class Implementing_UnaryOperator_BinaryOperator {
 
         System.out.println(unaryOperator.apply("Adil"));
 
+        UnaryOperator<String> unaryOperator1 = String::toString;
+        System.out.println(unaryOperator1.apply("Adil"));
+
         //Use BinaryOperator
         //Lambda
         BinaryOperator<String> binaryOperator = (a, b) -> a.concat(b);

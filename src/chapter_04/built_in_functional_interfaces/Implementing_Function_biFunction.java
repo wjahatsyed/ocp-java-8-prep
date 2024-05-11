@@ -20,11 +20,18 @@ public class Implementing_Function_biFunction {
         String s = "I am a string";
         System.out.println(function.apply(s));
 
+        Function<String, Integer> function1 = String::length;
+        String ss = "BMW M4 Competition";
+        System.out.println(function1.apply(ss));
+
         //Lambda
         BiFunction<String, String, String> biFunction = (t, v) -> t.concat(v);
         //Method Reference
         biFunction = String::concat;
         System.out.println(biFunction.apply("Wajahat", " Syed"));
+
+        BiFunction<String, String, String> biFunction1 = String::concat;
+        System.out.println(biFunction1.apply("Adil ",  "Anwar Ali"));
 
 
     }
