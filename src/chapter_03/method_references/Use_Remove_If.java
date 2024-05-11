@@ -22,3 +22,15 @@ public class Use_Remove_If {
         System.out.println(stringList);
     }
 }
+
+class Remove_If_2{
+    public static void main(String[] args){
+        List<String> names = new ArrayList<>();
+        names.add("Wajahat");
+        names.add("Adil");
+        names.removeIf(s->s.startsWith("W"));
+        System.out.println(names);
+    }
+}
+
+

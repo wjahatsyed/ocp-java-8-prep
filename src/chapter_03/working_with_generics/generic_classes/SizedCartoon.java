@@ -12,3 +12,13 @@ public class SizedCartoon<T, U> {
         this.sizeLimit = sizeLimit;
     }
 }
+
+class SizedCartoon_2<T,U>{
+    private T contents;
+    private U sizeLimit;
+
+    public SizedCartoon_2(T contents, U sizeLimit){
+        this.contents = contents;
+        this.sizeLimit = sizeLimit;
+    }
+}

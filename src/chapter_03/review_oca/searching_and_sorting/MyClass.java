@@ -22,7 +22,5 @@ public class MyClass {
         System.out.println(list);
         System.out.println(Collections.binarySearch(list, 3));
         System.out.println(Collections.binarySearch(list, 2));
-
-
     }
 }

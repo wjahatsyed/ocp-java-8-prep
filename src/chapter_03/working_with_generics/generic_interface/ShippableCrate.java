@@ -9,3 +9,10 @@ public class ShippableCrate implements Shippable{
 
     }
 }
+
+class Shippable_NewCrate implements Shippable{
+    @Override
+    public void ship(Object o) {
+
+    }
+}

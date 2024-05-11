@@ -11,6 +11,7 @@ public class Class {
         //Remember concept of backed data
         String[] array = {"Wajahat", "Zeeshan"};
         List<String> list = Arrays.asList(array);
+        System.out.println(list);
         list.set(0, "Ahmer");
         System.out.println(list);
         array[1] = "Zeeshu baba";

@@ -20,8 +20,11 @@ public class Examples_A {
         String s = "Wajahat";
         //Lambda
         Predicate<String> stringPredicate = s1 -> s.startsWith(s1);
+        Predicate<String> stringPredicate1 = s1->s.endsWith(s1);
+        stringPredicate1 = s::endsWith;
         //Method Reference
         stringPredicate = s::startsWith;
+        stringPredicate.test("Wajahat");
 
         //Consumer - takes 1 parameter and returns void
         //Lambda

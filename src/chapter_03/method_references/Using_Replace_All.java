@@ -12,5 +12,9 @@ public class Using_Replace_All {
         List<Integer> integerList = Arrays.asList(2,4,6);
         integerList.replaceAll(x -> x*2);
         System.out.print(integerList);
+
+        List<String> stringList = Arrays.asList("Wajahat", "Ahmer");
+        stringList.replaceAll(s->"Adil Jr.");
+        System.out.println(stringList);
     }
 }

@@ -9,3 +9,10 @@ public class ShippableAbstractClass<U> implements Shippable<U> {
 
     }
 }
+
+class ShippableClass<U> implements Shippable<U>{
+    @Override
+    public void ship(U u) {
+
+    }
+}

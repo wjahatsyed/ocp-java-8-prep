@@ -39,7 +39,7 @@ public class MyClass {
     //TreeSet - implements Set and NavigableSet - O(log n) - keeps the elements sorted
     //Methods in NavigableSet -
     /*
-    lower, floor, ceiling, higher
+    lower(), floor(), ceiling(), higher()
 
 
     //Queue Interface

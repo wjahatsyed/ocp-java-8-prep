@@ -14,3 +14,15 @@ public class Crate<T> {
         this.contents = contents;
     }
 }
+
+class Crate_2<T> {
+    private T contents;
+
+    public T emptyCrate() {
+        return contents;
+    }
+
+    public void packCrate(T contents) {
+        this.contents = contents;
+    }
+}
